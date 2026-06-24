@@ -45,7 +45,7 @@ JOIN courses c
 ON e.course_id = c.id;
 ```
 ### Output
-![Query 1 Output](query 1.png)
+![Query 1Output](query1.png)
 ---
 ### 2️⃣ Find average grade per course
 
@@ -58,7 +58,7 @@ ON e.course_id = c.id
 GROUP BY c.name;
 ```
 ### Output
-![Query 2 Output](query 2.png)
+![Query 2 Output](query2.png)
 ---
 ### 3️⃣ Find Top 3 Students Overall
 ```sql
@@ -72,7 +72,7 @@ ORDER BY Average_Grade DESC
 LIMIT 3;
 ```
 ### Output
-![Query 3 Output](query 3.png)
+![Query 3 Output](query3.png)
 ---
 ### 4️⃣ Count students who failed (grade < 40)
 ```sql
@@ -81,7 +81,7 @@ FROM enrollments
 WHERE grade < 40;
 ```
 ### Output
-![Query 4 Output](query 4.png)
+![Query 4 Output](query4.png)
 ---
 ## 🔑 SQL Concepts Used
 - INNER JOIN
